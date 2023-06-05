@@ -18,7 +18,7 @@ https://stephenchou.onrender.com
 
 Finally, run:
 ```
-python reload_site.py
+python preload_site.py
 ```
 
 ## Cron/GitHub Actions
