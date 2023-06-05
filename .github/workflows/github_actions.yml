@@ -1,6 +1,7 @@
-name: Preload site script
-
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '*/15 * * * *'
 
