@@ -21,11 +21,11 @@ jobs:
         run:
           python preload_site.py
 
-          #- name: commit and push
-          #run: |
-          #git config user.name Stephen Chou
-          #git config user.email sccusr@gmail.com
-          #git add .
-          #git commit -m "Ran job, updated log"
-          #git push
+      - name: commit and push
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add .
+          git commit -m "Ran job, updated log"
+          git push
 
