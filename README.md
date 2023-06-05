@@ -23,7 +23,7 @@ python reload_site.py
 
 ## Cron/GitHub Actions
 
-In ```.github/workflows/github_actions.yml ``` there is a cron expression that can be used to run the script through GitHub Actions. Currently it's set to every 15 minutes but can be set by the user.
+In ```.github/workflows/github_actions.yml ``` there is a cron expression that can be used to run the script through GitHub Actions. Currently it's set to every 15 minutes but can be set by the user. The user can also set up a local cron job.
 
 
 
