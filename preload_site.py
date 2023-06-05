@@ -30,14 +30,16 @@ for url in urls:
 
     if r.status_code != 200:
         log += f"ERROR: Site \"{url}\" could not be reached (HTTP: {r.status_code})"
+    else:
+        log += f"SUCCESS: Site \"{url\" was pre-loaded."
 
-        end = time.time()
+    end = time.time()
 
-        elapsed = end - start
+    elapsed = end - start
 
-        log += f" ({elapsed} seconds)\n"
+    log += f" ({elapsed} seconds)\n"
 
-        log_file.write(log)
+    log_file.write(log)
     
 
 log_file.close()
